@@ -1,0 +1,264 @@
+ your name  GURLEEN KAUR 
+
+
+/************* site defaults *************/
+body {
+    width: 950px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+/* TO DO: all elements with the .flex class applied are to be made into flex-box containers. */
+
+.flex {
+    display: flex;
+  }
+ 
+
+/************* site-wide text styling *************/
+
+
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-bottom: 12px;
+  }
+  
+  .large-text {
+    font-size: 24px;
+  }
+  
+  .fake-button {
+    background-color: #FFDB58;
+    text-align: center;
+    line-height: 3;
+    border: 1px solid black;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  main a:hover,
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .fake-button:hover,
+  .blue-hover:hover {
+    text-decoration: underline;
+    background-color: #6495ED;
+    color: white;
+    cursor: pointer;
+  }
+
+
+
+/************* header/footer styling *************/
+
+header {
+    background-color: #FFDB58;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+  }
+  
+  header img {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  main {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding: 25px;
+  }
+  
+  footer {
+    background-color: #FFDB58;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+
+
+/************* index page *************/
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .column-left {
+    flex-grow: 1;
+    padding-right: 25px;
+  }
+  
+  .column-right img {
+    width: 300px;
+    margin-bottom: 50px;
+  }
+  
+  h2 {
+    line-height: 36px;
+  }
+  
+  p {
+    margin-bottom: 12px;
+  }
+  
+  .fake-button {
+    width: 250px;
+    margin-right: 150px;
+  }
+  
+  /* To center the fake-buttons */
+  .column-left {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fake-button:last-child {
+    margin-right: 0;
+  }
+  
+
+
+/************* bookings page *************/
+
+.booking-page {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .day-selectors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .small-button, .large-button {
+    width: 60px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 18px;
+  }
+  
+  .small-button {
+    margin-right: 5px;
+  }
+  
+  .small-button:last-child {
+    margin-right: 0;
+  }
+  
+  .small-button.clicked, .small-button.clicked:hover {
+    background-color: #FFDB58;
+  }
+  
+  .large-button {
+    width: 200px;
+  }
+  
+  .top-margin {
+    margin-top: 24px;
+    margin-bottom: 12px;
+  }
+  
+  /* To center all items within their available space */
+  .booking-page * {
+    margin: 0 auto;
+  }
+  
+
+
+
+/************* contact page *************/
+
+
+.contact-main {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-labels {
+    width: 150px;
+    text-align: right;
+    margin-right: 24px;
+  }
+  
+  .contact-inputs {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .contact-input {
+    width: 100%;
+    height: 24px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid black;
+    margin-bottom: 24px;
+  }
+  
+  .contact-textarea {
+    width: 100%;
+    height: 150px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid black;
+    margin-bottom: 24px;
+  }
+  
+  .contact-button {
+    width: 250px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid black;
+    background-color: #ffd600;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 24px;
+  }
+  
+
+
